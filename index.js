@@ -5,6 +5,12 @@ var height = 70
  }else{
    console.log("Expected the name to be susan")
  }
+ if (index.height === 70) {
+    console.log("The height is correct")
+} else {
+    console.log("Expected: 70, Received: "+index.height)
+}
+
 
 // Don't worry about this
 module.exports = { name, height
