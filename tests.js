@@ -5,7 +5,12 @@ if (index.name === "Susan") {
 } else {
     console.log("Expected: Susan, Received: "+index.name)
 }
-
+var index=
+require("./index.js")
+console.log(index.name)
+var index=
+require("./index.js")
+console.log(index.height)
 
 
 if (index.height === 70) {
@@ -14,9 +19,3 @@ if (index.height === 70) {
     console.log("Expected: 70, Received: "+index.height)
 }
 
-var index=
-require("./index.js")
-console.log(index.name)
-var index=
-require("./index.js")
-console.log(index.height)
